@@ -5,8 +5,8 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "day3-iaasweek-tfstate"
+    bucket = "tf-iaasweek"
     key    = "terraform.tfstate"
-    region = "sa-east-1"
+    region = "us-east-1"
   }
 }
